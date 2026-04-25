@@ -78,18 +78,9 @@ img {
 }
 h1 {
     box-shadow: 10px;
-    color: oklab(67.399% -0.05669 -0.16892);
-}
-.auth #sing-in {
-    
-}
-.auth #sing-up {
-
+    color: oklab(62.358000000000004% -0.0529 -0.19946);
 }
 
-main .con {
-
-}
 @media (min-width: 768px) {
     .auth #sing-up {
         display: inline-block;
