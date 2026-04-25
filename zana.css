@@ -1,63 +1,27 @@
 * {
     margin: 0;
     padding: 0;
+    transform: scale(0.8);
     box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    transition: all .3s ease;
 }
-
 body {
-    background: #222;
-    display: grid;
-    min-height: 100vh;
-    place-items: center;
+    background: linear-gradient(180deg, #00a2ff, #00e5ff);
+    min-height: 100vb;
 }
-img {
-    height: 200px;
-    width: 200px;
-    animation: zana 3s cubic-bezier(.42,.13,0,.99) infinite;
-    clip-path: circle();
-}
-h1{
-    color: azure;
-    animation: koto 3s cubic-bezier(.42,.13,0,.99) infinite;
+.mark1 {
     position: absolute;
+    margin-left: -390px;
 }
-@keyframes zana {
-    0% {
-        transform: translate(0px);
-        transform: scale(1);
-    }
-    25% {
-        transform: translateY(-100px);
-    }
-
-    50% {
-        transform: translateY(100px);
-    }
-    80% {
-        transform: scale(1.5);
-        background-color: whitesmoke;
-    }
-    100% {
-        transform: scale(1);
-        background-color: gray;
-    }
+.mark2 {
+    margin-left: -20px;
+    position: absolute;
+    transform: scale(0.8);
 }
-@keyframes koto {
-    0% {
-        transform: translate(px);
-        transform: scale(1);
-    }
-    25% {
-        transform: translateY(-100px);
-    }
-
-    50% {
-        transform: translateY(100px);
-    }
-    80% {
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(1);
-    }
+.mark3 {
+    transform: scale(1.0);
+    margin-top: 60px;
+    margin-left: 400px;
+    position: absolute;
 }
