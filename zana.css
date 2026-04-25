@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+}
+img {
+    height: 200px;
+    width: 200px;
+    animation: zana 3s cubic-bezier(.42,.13,0,.99) infinite;
+    clip-path: circle();
+}
+h1{
+    color: azure;
+    animation: koto 3s cubic-bezier(.42,.13,0,.99) infinite;
+    position: absolute;
+}
+@keyframes zana {
+    0% {
+        transform: translate(0px);
+        transform: scale(1);
+    }
+    25% {
+        transform: translateY(-100px);
+    }
+
+    50% {
+        transform: translateY(100px);
+    }
+    80% {
+        transform: scale(1.5);
+        background-color: whitesmoke;
+    }
+    100% {
+        transform: scale(1);
+        background-color: gray;
+    }
+}
+@keyframes koto {
+    0% {
+        transform: translate(px);
+        transform: scale(1);
+    }
+    25% {
+        transform: translateY(-100px);
+    }
+
+    50% {
+        transform: translateY(100px);
+    }
+    80% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

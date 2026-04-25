@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    transition: all .3s ease;
+}
+body {
+    background: linear-gradient(180deg, #00a2ff, #00e5ff);
+    min-height: 100vh;
+}
+header {
+    border: blue 15px;
+    border-radius: 15px;
+    height: 60px;
+    background: hsl(0, 0%, 0%);
+    opacity: 40%;
+}
+
+header nav {
+    min-height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: lab(52.13% -8.93 -26.98);
+}
+
+.logo {
+    font-family: "Oswald", sans-serif;
+    color: lab(52.13% -8.93 -26.98);
+    font-size: 25px;
+    &:hover {
+        border-radius: 5px;
+        background: #00e5ff;
+    }
+} 
+.nav {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+.nav a {
+    color: lab(52.13% -8.93 -26.98);
+    &:hover{
+        border-radius: 5px;
+        background: #00e5ff;
+    }
+}
+
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.auth a {
+    color: lab(52.13% -8.93 -26.98);
+    font-size: 25px;
+    &:hover{
+        border-radius: 5px;
+        background: #00e5ff;
+    }
+}
+
+img {
+    border: #00a2ff;
+    border-radius: 10px;
+    transform: scale(0.8);
+    position: absolute;
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+h1 {
+    box-shadow: 10px;
+    color: oklab(67.399% -0.05669 -0.16892);
+}
+.auth #sing-in {
+    
+}
+.auth #sing-up {
+
+}
+
+main .con {
+
+}
+@media (min-width: 768px) {
+    .auth #sing-up {
+        display: inline-block;
+    }
+}
